@@ -8,7 +8,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const App = () => {
 
   return(
-    <MainRouter />
+    <MainLayout>
+      <MainRouter />
+    </MainLayout>
   );
 };
 

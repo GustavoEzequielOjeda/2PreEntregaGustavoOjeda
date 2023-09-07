@@ -1,8 +1,13 @@
+import React from "react";
 
-const MainLayout = () =>{
-    
-    return(
-        <div></div>
-    )
-}
+import "bootstrap/dist/css/bootstrap.min.css";
+
+const MainLayout = ({ children }) => {
+  return (
+    <div>
+      <main>{children}</main>
+    </div>
+  );
+};
+
 export default MainLayout;
